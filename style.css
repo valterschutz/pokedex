@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    /* grid-template-columns: minmax(300px, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    font-family: 'Press Start 2P', cursive;
+    padding: .5em;
+    gap: .5em;
+    color: white;
+}
+
+.pokemon {
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-name-id h2 {
+    font-size: 1.5rem;
+}
+
+.types {
+    font-size: 1.2rem;
+}
+
+.cap {
+    text-transform: capitalize;
+}
